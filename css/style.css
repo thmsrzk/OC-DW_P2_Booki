@@ -211,7 +211,8 @@ header a {
     border-top-right-radius: 20px;
 }
 
-.hebergements-cards-1st-line {
+.hebergements-cards-1st-line,
+.hebergements-cards-2nd-line {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -221,6 +222,19 @@ header a {
     width: 250.33px;
     height: 207.25px;
 }
+
+.hebergements .card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0px 15px 0px 15px;
+}
+
+.showMore {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 
 .main-container {
     width: 100%;
