@@ -47,7 +47,79 @@ header a {
     font-size: 16px;
 }
 
+.infogroup{
+    gap: 35px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
 
+.headlines {
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.headlines h1 {
+    font-size: 22px;
+}
+
+.headlines p {
+    font-size: 16px;
+}
+
+
+.searchbar {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.searchbar i {
+    width: 14px;
+    height: 18px;
+    top: 15px;
+    left: 18px;
+    color:black;
+}
+
+.location-icone {
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px;
+    background-color: 
+    #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.searchbar input {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    color: black;
+    border: 1px solid #F2F2F2;
+}
+
+.searchbar button {
+    background-color: #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    padding: 15px 16px 15px 16px;
+    border: 0px;
+}
+
+.searchbar button:hover {
+    cursor: pointer;
+}
+
+.search-button-text {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+}
 
 
 
