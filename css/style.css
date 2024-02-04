@@ -370,7 +370,22 @@ a {
     margin-bottom: 5px;
 }
 
+/* Footer */
 
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.footerColumns {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 15px;
+}
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
