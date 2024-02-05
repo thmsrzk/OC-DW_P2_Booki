@@ -485,7 +485,8 @@ footer {
     }
 
     .main-container {
-        padding: 0 20px;
+        margin: 0;
+        padding: 0;
     }
 
     .search-button-text {
@@ -515,6 +516,44 @@ footer {
 
     .filter div {
         margin: 8px 12px 8px 12px;
+    }
+
+    .infogroup{
+        margin-left: 20px;
+    }
+    
+    .hebergements-and-populaires {
+        flex-direction: column;
+    }
+
+    .hebergements{
+        order: 1;
+        gap: 15px;
+        background-color: white !important;
+    }
+
+    .populaires{
+        border-radius: 0% !important;
+        gap: 15px;
+   
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100% !important;
+    }
+
+    .hebergements-cards-1st-line,
+    .hebergements-cards-2nd-line {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .hebergements .card{
+        width: 100% !important;
     }
 
 }
