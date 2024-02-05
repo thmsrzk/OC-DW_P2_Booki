@@ -144,6 +144,7 @@ header a {
     display: flex;
     flex-direction: row;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .filterbar p {
@@ -499,10 +500,24 @@ footer {
     .searchbar button {
         border-radius: 15px;
     }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter {
+        width: 150px;
+    }
+
+    .filter span {
+        font-size: 14px;
+    }
+
+    .filter div {
+        margin: 8px 12px 8px 12px;
+    }
+
 }
-
-
-
 /* Desktop (1024px+) */
 
 @media (min-width: 1024px) {
