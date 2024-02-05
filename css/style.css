@@ -23,6 +23,10 @@ body {
 
 /* HEADER */
 
+header{
+    max-width: 1440px;
+    min-width: 320px;
+}
 
 nav {
     display : flex;
@@ -294,6 +298,7 @@ header a {
 .main-container {
     width: 100%;
     max-width: 1440px;
+    min-width: 320px;
     padding: 0 50px;
     box-sizing: border-box;
 }
@@ -533,8 +538,12 @@ footer {
         margin: 8px 12px 8px 12px;
     }
 
+    .filterbar {
+        justify-content: center;
+    }
+
     .infogroup{
-        margin-left: 20px;
+        margin: 0 20px;
     }
     
     .hebergements-and-populaires {
@@ -594,9 +603,6 @@ footer {
 /* Desktop (1024px+) */
 
 @media (min-width: 1024px) {
-
-    
-
     .activitesCard img {
         height: 380px;
     }
@@ -609,6 +615,20 @@ footer {
         color: #0065fc;
         border-top: 4px #0065fc solid;
         padding-top: 26px;
+    }
+
+}
+
+/* Wide screen (+1440px) */
+@media (min-width: 1440px) {
+
+    .main-container,
+    header {
+        margin: auto;
+    }
+
+    header{
+        width: 100%;
     }
 
 }
