@@ -15,20 +15,18 @@
 </head>
 
 <body>
-   
-
+    <header>
+        <nav>
+            <div id="headerLogo">
+                <img src="images/logo/Booki.png" alt="Logo Booki"/>
+            </div>
+            <div id="headerLinks">
+                <a href="">Hébergements</a>
+                <a href="">Activités</a>
+            </div>
+        </nav>
+    </header>
     <div class="main-container">
-        <header>
-            <nav>
-                <div id="headerLogo">
-                    <img src="images/logo/Booki.png" alt="Logo Booki"/>
-                </div>
-                <div id="headerLinks">
-                    <a href="">Hébergements</a>
-                    <a href="">Activités</a>
-                </div>
-            </nav>
-        </header>
         <main>
             <div class="infogroup">
                 <div class="headlines">
@@ -43,35 +41,39 @@
                     <input type="search" name="search" value="Marseille, France"/>
                     <button>
                         <span class="search-button-text">Rechercher</span>
+                        <i class="fa-solid fa-magnifying-glass"></i>
                     </button>
                 </div>
 
-                <div class="filterbar">
+                <div class="filters">
                     <p>Filtres</p>
-                    <button class="filter">
-                        <div>
-                            <i class="fa-solid fa-money-bill-wave"></i>
-                            <span class="filter-text">Économique</span>
-                        </div>
-                    </button>
-                    <button class="filter">
-                        <div>
-                            <i class="fa-solid fa-person"></i>
-                            <span class="filter-text">Familial</span>
-                        </div>
-                    </button>
-                    <button class="filter">
-                        <div>
-                            <i class="fa-solid fa-heart"></i>
-                            <span class="filter-text">Romantique</span>
-                        </div>
-                    </button>
-                    <button class="filter">
-                        <div>
-                            <i class="fa-solid fa-fire"></i>
-                            <span class="filter-text">Nos pépites</span>
-                        </div>
-                    </button>
+                    <div class="filterbar">
+                        <button class="filter">
+                            <div>
+                                <i class="fa-solid fa-money-bill-wave"></i>
+                                <span class="filter-text">Économique</span>
+                            </div>
+                        </button>
+                        <button class="filter">
+                            <div>
+                                <i class="fa-solid fa-person"></i>
+                                <span class="filter-text">Familial</span>
+                            </div>
+                        </button>
+                        <button class="filter">
+                            <div>
+                                <i class="fa-solid fa-heart"></i>
+                                <span class="filter-text">Romantique</span>
+                            </div>
+                        </button>
+                        <button class="filter">
+                            <div>
+                                <i class="fa-solid fa-fire"></i>
+                                <span class="filter-text">Nos pépites</span>
+                            </div>
+                        </button>
+
+                    </div>
 
                 </div>
                 <div class="infobar">
