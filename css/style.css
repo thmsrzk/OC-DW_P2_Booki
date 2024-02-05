@@ -551,6 +551,7 @@ footer {
 
     .filter {
         width: 45%;
+        justify-content: center;
     }
 
     .filter span {
