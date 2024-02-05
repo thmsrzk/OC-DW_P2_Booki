@@ -518,6 +518,15 @@ footer {
         padding: 0;
     }
 
+    .searchbar {
+        width: 100%;
+    }
+
+    .searchbar input {
+        width: 80%;
+        justify-content: center;
+    }
+
     .search-button-text {
         display: none;
     }
@@ -535,8 +544,13 @@ footer {
         flex-direction: column;
     }
 
+    .filtersLine1,
+    .filtersLine2 {
+        width: 100%;
+    }
+
     .filter {
-        width: 150px;
+        width: 45%;
     }
 
     .filter span {
