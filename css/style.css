@@ -506,12 +506,12 @@ footer {
         width: 50%;
         display: flex;
         justify-content: center;
-        border-bottom: 4px #F2F2F2 solid;
+        border-bottom: 2px #F2F2F2 solid;
     }
 
     #headerLinks a:hover{
         color: #0065fc;
-        border-bottom: 4px #0065fc solid;
+        border-bottom: 2px #0065fc solid;
         
     }
 
@@ -636,8 +636,8 @@ footer {
 
     nav a:hover{
         color: #0065fc;
-        border-top: 4px #0065fc solid;
-        padding-top: 26px;
+        border-top: 2px #0065fc solid;
+        padding-top: 27px;
     }
 
 }
