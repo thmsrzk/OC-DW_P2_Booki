@@ -32,7 +32,7 @@ header {
     width: 100%;
 }
 
-nav {
+header nav {
     display : flex;
     flex-direction: row;
     justify-content: space-between;
@@ -421,7 +421,6 @@ footer {
     display: flex;
     flex-direction: row;
     background-color: #F2F2F2;
-    justify-content: space-evenly;
     width: 90%;
     align-self: center;
 }
@@ -431,6 +430,7 @@ footer {
     flex-direction: column;
     padding: 20px;
     gap: 15px;
+    width: 33%;
 }
 
 
@@ -634,7 +634,7 @@ footer {
 /* Tablet & Desktop (768px+) */
 @media (min-width: 768.01px) {
 
-    nav a:hover{
+    header nav a:hover{
         color: #0065fc;
         border-top: 2px #0065fc solid;
         padding-top: 27px;
