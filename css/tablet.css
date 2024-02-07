@@ -36,3 +36,15 @@
         height: 200px;
     }
 }
+
+
+/* Tablet & above (768px+) */
+@media (min-width: 768.01px) {
+
+    header nav a:hover{
+        color: #0065fc;
+        border-top: 2px #0065fc solid;
+        padding-top: 27px;
+    }
+
+}

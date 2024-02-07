@@ -438,24 +438,22 @@ footer {
     width: 33%;
 }
 
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
 
-/* Desktop (1024px+) */
+
+/* Desktop only (1024px+) */
 
 @media (min-width: 1024px) {
     .activitesCard img {
         height: 380px;
     }
-}
-
-/* Tablet & Desktop (768px+) */
-@media (min-width: 768.01px) {
-
-    header nav a:hover{
-        color: #0065fc;
-        border-top: 2px #0065fc solid;
-        padding-top: 27px;
-    }
-
 }
 
 /* Wide screen (+1440px) */
