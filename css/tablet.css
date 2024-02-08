@@ -35,6 +35,10 @@
     .activites img {
         height: 200px;
     }
+
+    .activites .card-txt {
+        height: 30px;
+    }
 }
 
 
