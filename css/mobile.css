@@ -125,7 +125,6 @@
 
     .activitesCardsContainer{
         flex-direction: column;
-        gap: 15px;
     }
 
     .activites a {
