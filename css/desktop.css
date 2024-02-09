@@ -1,11 +1,4 @@
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-results-button,
-input[type="search"]::-webkit-search-results-decoration {
-    display: none;
-}
-
-/****** General ***********/
+/****** General ---------------------------------------***********/
 * {
     font-family: 'Raleway', sans-serif;
     margin: 0px;
@@ -31,8 +24,17 @@ body {
     margin: 0 50px;
 }
 
-/* HEADER */
+/* User Agent changes -----------------------------------------*/
+/* Chromium */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
 
+
+/* HEADER----------------------------------------------------*/
 header {
     max-width: 1440px;
     min-width: 320px;
@@ -64,6 +66,54 @@ header a {
     font-size: 16px;
 }
 
+/* ----------------------------------------------------------- */
+.main-container {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+.section-title {
+    margin: 0;
+    font-size: 22px;
+}
+
+.card {
+    padding: 5px;
+}
+
+.card,
+.activitesCard {
+    background-color: white;
+    border-radius: 20px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+}
+
+.card img,
+.activitesCard img {
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 16px;
+}
+
+.euro {
+    font-weight: 700;
+}
+
+.neutral-star {
+    color: var(--main-bg-color)
+}
+
+/* Infogroup-----------------------------------------------*/
 .infogroup{
     gap: 35px;
     display: flex;
@@ -71,6 +121,7 @@ header a {
     margin-bottom: 30px;
 }
 
+/* Headlines----------------------------------------------*/
 .headlines {
     gap: 8px;
     display: flex;
@@ -85,7 +136,7 @@ header a {
     font-size: 16px;
 }
 
-
+/* Searchbar----------------------------------------------*/
 .searchbar {
     display: flex;
     flex-direction: row;
@@ -141,14 +192,11 @@ header a {
     display: none;
 }
 
+/* Filters------------------------------------------------------------------*/
 .filters{
     display: flex;
     flex-direction: row;
     gap: 15px;
-}
-
-h3 {
-    font-size: 18px;
 }
 
 .filters h3 {
@@ -189,13 +237,10 @@ h3 {
     align-items: center;   
 }
 
-
 .filter {
-    /* margin: 8px 16px 8px 16px; */
     display: flex;
     flex-direction: row;
     gap: 10px;
-    /* align-items: center; */
     padding: 8px 16px 8px 16px;
 }
 
@@ -206,6 +251,7 @@ h3 {
     gap: 15px;
 }
 
+/* Infobar---------------------------------------------------*/
 .infobar {
     display: flex;
     flex-direction: row;
@@ -231,8 +277,23 @@ h3 {
     align-items: center;
 }
 
+/****** Hebergements And Populaires --------------------------***********/
+.hebergements-and-populaires {
+    display: flex;
+    justify-content: space-between;
+}
 
+.hebergements-and-populaires section {
+    background-color: var(--main-bg-color);
+    border-radius: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+/* Hebergements---------------------------------------------*/
 .hebergements {
+    width: 65%;
     padding: 30px;
     gap: 30px;
     display: flex;
@@ -255,7 +316,6 @@ h3 {
 .hebergements-cards-2nd-line {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     gap: 30px
 }
 
@@ -291,102 +351,7 @@ h3 {
     font-weight: 700;
 }
 
-
-/* Activités*/
-.activites {
-    display: flex;
-    flex-direction: column;
-    padding: 30px;
-    gap: 30px;
-}
-
-.activitesCardsContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    width: 100%;
-}
-
-.activites a {
-    width: 100%;
-}
-
-.activites img {
-    border-radius: 20px 20px 0 0;
-    width: 100%;
-    height: 380px;
-}
-
-.activites .card-txt {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    height: 19px;
-}
-
-/*  */
-.main-container {
-    box-sizing: border-box;
-}
-
-a {
-    color: inherit;
-    text-decoration: none;
-}
-
-.section-title {
-    margin: 0;
-    font-size: 22px;
-}
-
-.card {
-    padding: 5px;
-}
-
-.card,
-.activitesCard {
-    background-color: white;
-    border-radius: 20px;
-    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-}
-
-.card img,
-.activitesCard img {
-    object-fit: cover;
-}
-
-.card-title {
-    font-size: 16px;
-}
-
-.euro {
-    font-weight: 700;
-}
-
-.neutral-star {
-    color: var(--main-bg-color)
-}
-
-/****** Hebergements And Populaires ***********/
-.hebergements-and-populaires {
-    display: flex;
-    justify-content: space-between;
-}
-
-.hebergements-and-populaires section {
-    background-color: var(--main-bg-color);
-    border-radius: 20px;
-    padding: 30px;
-    box-sizing: border-box;
-    margin-bottom: 30px;
-}
-
-/****** Hebergements ***********/
-.hebergements {
-    width: 65%;
-}
-
-/****** Populaires ***********/
+/****** Populaires-------------------------------------- ***********/
 .populaires {
     width: 32%;
 }
@@ -431,8 +396,39 @@ a {
     margin-bottom: 5px;
 }
 
-/* Footer */
+/* Activités----------------------------------------------*/
+.activites {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
 
+.activitesCardsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
+}
+
+.activites a {
+    width: 100%;
+}
+
+.activites img {
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+    height: 380px;
+}
+
+.activites .card-txt {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 19px;
+}
+
+/* Footer-----------------------------------------------------*/
 footer {
     display: flex;
     flex-direction: row;
@@ -463,15 +459,14 @@ footer a {
 }
 
 
-/* Desktop only (1024px+) */
-
+/* Desktop only (1024px+)--------------------------------------*/
 @media (min-width: 1024px) {
     .activitesCard img {
         height: 380px;
     }
 }
 
-/* Wide screen (+1440px) */
+/* Wide screen (+1440px)-----------------------------------------*/
 @media (min-width: 1440px) {
 
     body {
