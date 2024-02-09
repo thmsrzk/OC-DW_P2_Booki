@@ -147,11 +147,14 @@ header a {
     gap: 15px;
 }
 
-.filters p {
+h3 {
+    font-size: 18px;
+}
+
+.filters h3 {
     display: flex;
     align-items: center;
     font-weight: 700;
-    font-size: 18px;
 }
 
 .filterbar {
@@ -161,9 +164,9 @@ header a {
     flex-wrap: wrap;
 }
 
-.filterbar p {
+.filterbar .filter-text {
     font-weight: 700;
-    font-size: 18px;
+    font-size: 17px;
     display: flex;
     align-items: center;
 }
@@ -186,13 +189,6 @@ header a {
     align-items: center;   
 }
 
-.filter span {
-    font-size: 17px;
-    font-weight: 700;
-    display: flex;
-    flex-direction: row;
-    align-items: center; 
-}
 
 .filter {
     /* margin: 8px 16px 8px 16px; */
@@ -460,6 +456,10 @@ footer ul {
     padding: 0px;
     margin: 0px;
     list-style-type: none;
+}
+
+footer a {
+    font-size: 16px;
 }
 
 
