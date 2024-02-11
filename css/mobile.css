@@ -74,11 +74,15 @@
     .filtersLine2 {
         width: 100%;
         justify-content: center;
+        gap: 0.93em;
     }
 
     .filter {
         width: 45%;
         justify-content: center;
+        padding: 8px 0px 8px 0px;
+        min-width: 150px;
+        max-height: 42px;
     }
 
     .filter span {
