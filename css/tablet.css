@@ -6,6 +6,11 @@
     
     .hebergements-and-populaires {
         flex-direction: column;
+        gap: 50px;
+    }
+
+    .hebergements-and-populaires section{
+        margin-bottom: 0px;
     }
 
     .hebergements {
@@ -14,7 +19,6 @@
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
     }
 
     .populaires-cards {
