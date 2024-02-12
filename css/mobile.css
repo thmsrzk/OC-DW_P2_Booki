@@ -99,6 +99,10 @@
         flex-direction: column;
     }
 
+    .hebergements-and-populaires section {
+        margin-bottom: 0px;
+    }
+
     .hebergements{
         order: 1;
         gap: 15px;
