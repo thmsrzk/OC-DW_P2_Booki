@@ -1,5 +1,9 @@
 /* Medium devices (tablets, less/equal than 1024px)-------------- */
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
+    .filters {
+        min-width: 740px;
+    } 
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -50,12 +54,4 @@
         padding-top: 27px;
     }
 
-}
-
-/* TABLET ONLY------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1023px) {
-
-    .filters {
-        min-width: 740px;
-    } 
 }
