@@ -29,6 +29,7 @@
         display: flex;
         justify-content: center;
         border-bottom: 2px #F2F2F2 solid;
+        padding: 20px;
     }
 
     #headerLinks a:hover{
