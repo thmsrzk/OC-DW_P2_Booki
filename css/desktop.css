@@ -464,16 +464,3 @@ footer a {
         height: 380px;
     }
 }
-
-/* Wide screen (+1440px)-----------------------------------------*/
-@media (min-width: 1440px) {
-
-    body {
-        margin: auto !important;
-    }
-
-    footer {
-        width: 100%;
-    }
-    
-}
