@@ -463,4 +463,10 @@ footer a {
     .activitesCard img {
         height: 380px;
     }
+
+    header nav a:hover{
+        color: #0065fc;
+        border-top: 2px #0065fc solid;
+        padding-top: 27px;
+    }
 }
