@@ -2,11 +2,10 @@
 @media (min-width: 1440px) {
 
     body {
-        margin: auto !important;
+        margin: auto;
     }
 
     footer {
         width: 100%;
     }
-    
 }
