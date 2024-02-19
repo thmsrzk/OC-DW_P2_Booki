@@ -1,6 +1,6 @@
 /* Medium devices (tablets, less/equal than 1024px)-------------- */
 @media (max-width: 1024px) and (min-width: 768px) {
-    header nav a:hover{
+    header nav li:hover{
         color: #0065fc;
         border-top: 2px #0065fc solid;
         padding-top: 27px;

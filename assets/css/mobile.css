@@ -7,24 +7,23 @@
 
     header nav {
         flex-direction: column;
+        align-items: center;
     }
 
-    #headerLogo {
+
+    .headerLogo {
         display: flex;
         justify-content: center;
+        padding: 20px; 
     }
 
-    #headerLogo img {
-        padding: 30px; 
-    }
-
-    #headerLinks {
+    .headerLinks {
         width: 100%;
         padding: 0;
         gap: 0;
     }
 
-    #headerLinks a {
+    .headerLinks li {
         width: 50%;
         display: flex;
         justify-content: center;
@@ -32,7 +31,12 @@
         padding: 20px;
     }
 
-    #headerLinks a:hover{
+    .headerAHeberg{
+        color: #0065fc;
+        border-bottom: 2px #0065fc solid !important;
+    }
+
+    .headerLinks li:hover{
         color: #0065fc;
         border-bottom: 2px #0065fc solid;
         
@@ -159,5 +163,7 @@
 
     .footerColumns{
         padding: 30px;
-    }    
+        width: 100%;
+    }
+
 }

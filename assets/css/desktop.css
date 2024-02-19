@@ -51,20 +51,22 @@ header nav {
 header nav img {
     width: 61.09px;
     height: 19px;
-    padding: 30px 0 0 50px;
+    padding: 30px 0 0 0;
 
 }
 
-#headerLinks {
+.headerLinks {
     display: flex;
     gap: 50px;
     padding-right: 50px;
+    list-style-type: none;
 }
 
-header a {
+header li {
     padding: 30px;
     font-size: 16px;
 }
+
 
 /* ----------------------------------------------------------- */
 .main-container {
@@ -470,7 +472,7 @@ footer a {
         height: 380px;
     }
 
-    header nav a:hover{
+    header nav li:hover{
         color: #0065fc;
         border-top: 2px #0065fc solid;
         padding-top: 27px;
