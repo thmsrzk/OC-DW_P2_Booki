@@ -359,11 +359,17 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 33px;
+}
+
+.populaires-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
 }
 
 .populaires-cards img {

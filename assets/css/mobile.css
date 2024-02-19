@@ -111,18 +111,21 @@
     }
 
     .populaires{
+        display: flex;
+        flex-direction: column;
         border-radius: 0% !important;
-        gap: 15px;
         width: 100%;
         margin-top: 30px;
     }
 
     .populaires-cards {
+        display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .populaires-cards a {
-        width: 100% !important;
+        width: 100%;
     }
 
     .hebergements-cards-1st-line,
@@ -132,16 +135,17 @@
     }
 
     .hebergements a{
-        width: 100% !important;
+        width: 100%;
     }
 
     .activitesCardsContainer{
+        display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .activites a {
         width: 100%;
-        height: 200px;
     }
 
     .activitesCard img{
